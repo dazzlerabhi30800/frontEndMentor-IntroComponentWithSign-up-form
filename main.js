@@ -32,7 +32,7 @@ const handleInputs = () => {
     }
 
     if (email.value == '') {
-        setError(lName, "Email Name can't be blank");
+        setError(email, "Email Name can't be blank");
     }
     else if (!email.value.match(mailFormat)) {
         setError(email, "Invalid Format");
