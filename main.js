@@ -42,7 +42,7 @@ const handleInputs = () => {
     }
 
     if (password.value == '') {
-        setError(password, "Email Name can't be blank");
+        setError(password, "Password can't be blank");
     }
     else if (password.value.length < 10) {
         setError(password, "Password is too short");
